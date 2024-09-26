@@ -22,5 +22,9 @@ const db = {};
 db.Sequelize = Sequelize;
 db.sequelize = sequelize;
 db.Departamento = require('../models/departamento.model.js')(sequelize, Sequelize);
+db.Usuario = require('../models/usuario.model.js')(sequelize, Sequelize); 
+db.Proyecto = require('../models/proyecto.model.js')(sequelize, Sequelize); 
+db.Tarea = require('../models/tarea.model.js')(sequelize, Sequelize); 
+
 
 module.exports = db;

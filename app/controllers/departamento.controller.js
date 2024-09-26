@@ -40,7 +40,7 @@ exports.retrieveAllDepartamento = (req, res) => {
 };
 
 exports.getDepartamentoById = (req, res) => {
-  let departamentoId = req.params.id;
+  let departamento = req.params.id;
   Departamento.findByPk(id)
     .then(departamento => {
       if (departamento) {
