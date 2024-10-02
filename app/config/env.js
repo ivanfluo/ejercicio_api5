@@ -1,9 +1,8 @@
 const env = {
-    database: 'antigua_umg_progra_2024',
-    username: 'antigua_umg_progra_2024_user',
-    password: 'rvNd3DkVyPZk5PMJaOsYuuEqVB6bviYW',
-    host: 'dpg-cr6jsitds78s73buu7ag-a.oregon-postgres.render.com',
-    dialect: 'postgres',
+    database: 'antigua_umg_2024',
+    username: 'antigua_umg_2024_user',
+    password: 'TVda3unUH52IfP6Ekt1sxrqlpa7fPeGu',
+    host: 'dpg-crupakdsvqrc7388nctg-a.oregon-postgres.render.com',
     pool: {
       max: 5,
       min: 0,
