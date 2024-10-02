@@ -3,6 +3,7 @@ const env = {
     username: 'antigua_umg_2024_user',
     password: 'TVda3unUH52IfP6Ekt1sxrqlpa7fPeGu',
     host: 'dpg-crupakdsvqrc7388nctg-a.oregon-postgres.render.com',
+    dialect: 'postgres',
     pool: {
       max: 5,
       min: 0,
